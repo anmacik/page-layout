@@ -61,9 +61,27 @@ header{
   visibility: visible;
 }
 .popup{
+	position:relative;
 	height:400px;
 	width:400px;
 	background-color:white;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-size:53px;	
+}
+.popup>p{
+font-size:53px;
+}
+.close{
+	position:absolute;
+	top:15px;
+	right:15px;
+	color:white;
+	border-radius:5px;	
+	background-color:#7FAFF6;
+	font-size:20px;
+	padding:8px 15px 8px 15px;
 }
 .block1{
 	margin-top:15px;
